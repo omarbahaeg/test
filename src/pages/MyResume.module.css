@@ -1,0 +1,62 @@
+.preTitle {
+  position: relative;
+  background: linear-gradient(135deg, #e95841, #e94b63);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title {
+  position: relative;
+  font-size: var(--font-size-36xl);
+  text-align: left;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.unionIcon {
+  width: 63.2px;
+  position: relative;
+  height: 40px;
+  cursor: pointer;
+}
+.button {
+  width: 168px;
+  border-radius: 10px;
+  background-color: #005cff;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.frame {
+  width: 970px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.frame,
+.latestPortfolio,
+.myResume {
+  display: flex;
+  align-items: center;
+}
+.latestPortfolio {
+  align-self: stretch;
+  background-color: var(--body-light);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-31xl) var(--padding-186xl);
+}
+.myResume {
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--black);
+  font-family: var(--font-montserrat);
+}

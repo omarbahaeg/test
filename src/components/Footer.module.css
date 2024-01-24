@@ -1,0 +1,131 @@
+.vectorIcon {
+  width: 29.3px;
+  position: relative;
+  height: 40px;
+}
+.frame2,
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.frame2 {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 0 var(--padding-3xs);
+}
+.logo {
+  width: 70px;
+  border-radius: var(--br-81xl);
+  background-color: var(--white);
+  height: 70px;
+  padding: var(--padding-3xs);
+  min-width: 25px;
+  max-width: 114.76000213623047px;
+}
+.strongOmarContainer {
+  position: relative;
+  line-height: 24px;
+}
+.seniorGraphicDesigner {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 25px;
+  opacity: 0.75;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.omarBahaaAll {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 25px;
+  opacity: 0.75;
+}
+.frame3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  max-width: 300px;
+}
+.frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.vectorIcon1 {
+  width: 16.7px;
+  position: relative;
+  height: 10.4px;
+}
+.link {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs);
+  box-sizing: border-box;
+}
+.vectorIcon2 {
+  width: 15px;
+  position: relative;
+  height: 15px;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  width: 8.3px;
+  position: relative;
+  height: 16.7px;
+}
+.vectorIcon4,
+.vectorIcon5 {
+  width: 16.7px;
+}
+.vectorIcon5 {
+  width: 17.4px;
+  height: 14.2px;
+}
+.frame4 {
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-3xs);
+}
+.footer,
+.frame,
+.frame4 {
+  display: flex;
+  flex-direction: row;
+}
+.frame {
+  width: 1187px;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 75px;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--black);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) var(--padding-136xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--font-montserrat);
+}

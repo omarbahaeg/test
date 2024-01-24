@@ -1,0 +1,31 @@
+.body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--body);
+  box-shadow: 0 5px 5px rgba(112, 112, 112, 0.15);
+}
+.body,
+.fill,
+.progressBar {
+  border-radius: var(--br-8xs);
+}
+.fill {
+  position: absolute;
+  height: 100%;
+  width: 84.94%;
+  top: 0;
+  right: 15.06%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(135deg, #e95841, #e94b63);
+}
+.progressBar {
+  align-self: stretch;
+  position: relative;
+  height: 8px;
+}

@@ -1,0 +1,41 @@
+.preTitle,
+.title {
+  position: relative;
+}
+.title {
+  font-size: var(--font-size-36xl);
+  color: var(--black);
+  text-align: left;
+}
+.column,
+.frame {
+  display: flex;
+  align-items: center;
+}
+.column {
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-31xl);
+}
+.frame {
+  width: 1075px;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+}
+.operationalProficiency {
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-31xl) var(--padding-31xl) var(--padding-81xl);
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--main);
+  font-family: var(--font-montserrat);
+}

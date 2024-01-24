@@ -1,0 +1,139 @@
+.preTitle,
+.title {
+  position: relative;
+}
+.title {
+  font-size: var(--font-size-36xl);
+  color: var(--black);
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-31xl);
+}
+.assestIcon {
+  width: 35.1px;
+  position: relative;
+  height: 35px;
+}
+.draw,
+.frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frame1 {
+  width: 85px;
+  border-radius: var(--br-8xs);
+  background-color: var(--white);
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid var(--main);
+  box-sizing: border-box;
+  height: 85px;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.draw {
+  width: 275px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.assestIcon1,
+.vectorIcon {
+  width: 33.9px;
+  position: relative;
+  height: 35px;
+}
+.vectorIcon {
+  width: 40.8px;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-106xl);
+}
+.vectorIcon1 {
+  width: 30.6px;
+  position: relative;
+  height: 35px;
+}
+.frame5,
+.mma {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frame5 {
+  width: 85px;
+  border-radius: var(--br-8xs);
+  background-color: var(--white);
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid var(--main);
+  box-sizing: border-box;
+  height: 85px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.mma {
+  width: 275px;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.vectorIcon2 {
+  width: 48.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: 26px;
+  left: 20px;
+  height: 35px;
+  z-index: 0;
+}
+.frame6 {
+  width: 85px;
+  border-radius: var(--br-8xs);
+  background-color: var(--white);
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid var(--main);
+  box-sizing: border-box;
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl);
+  position: relative;
+}
+.vectorIcon3 {
+  width: 40.1px;
+  position: relative;
+  height: 35px;
+}
+.column1,
+.myInterests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--black);
+}
+.myInterests {
+  align-self: stretch;
+  background-color: var(--body-light);
+  padding: var(--padding-31xl) var(--padding-31xl) var(--padding-81xl);
+  gap: var(--gap-3xs);
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--main);
+  font-family: var(--font-montserrat);
+}

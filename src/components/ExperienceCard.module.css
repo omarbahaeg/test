@@ -1,0 +1,78 @@
+.point {
+  width: 27px;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e95841, #e94b63);
+  height: 27px;
+}
+.freelance,
+.seniorGraphicDesigner {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  line-height: 35px;
+}
+.seniorGraphicDesigner {
+  top: 0;
+  font-size: var(--font-size-7xl);
+  line-height: 34px;
+  color: var(--main);
+}
+.frame1 {
+  width: 265px;
+  position: relative;
+  height: 71px;
+}
+.describtion {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 35px;
+  font-weight: 300;
+}
+.content,
+.frame {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame {
+  width: 874px;
+  flex-direction: row;
+  gap: var(--gap-21xl);
+}
+.today {
+  position: relative;
+  line-height: 35px;
+}
+.date,
+.experience {
+  display: flex;
+  flex-direction: row;
+}
+.date {
+  width: 165px;
+  border-radius: var(--br-31xl);
+  background: linear-gradient(135deg, #e95841, #e94b63);
+  box-shadow: 0 5px 5px rgba(233, 88, 65, 0.16);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+}
+.experience {
+  width: 1075px;
+  align-items: flex-start;
+  justify-content: space-between;
+  z-index: 0;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--black);
+  font-family: var(--font-montserrat);
+}

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-nunito: Nunito;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-7xl: 26px;
+  --font-size-21xl: 40px;
+  --font-size-36xl: 55px;
+  --font-size-3xl: 22px;
+  --font-size-mid-6: 17.6px;
+  --font-size-lgi-2: 19.2px;
+  --font-size-26xl: 45px;
+  --font-size-6xl: 25px;
+
+  /* Colors */
+  --body-light: #fafafa;
+  --black: #14192d;
+  --white: #fff;
+  --main: #e95841;
+  --body: #bbb;
+  --button: #e0e0e0;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-11xl: 30px;
+  --gap-8xs: 5px;
+  --gap-6xl: 25px;
+  --gap-21xl: 40px;
+  --gap-xl: 20px;
+  --gap-106xl: 125px;
+  --gap-141xl: 160px;
+  --gap-41xl: 60px;
+
+  /* Paddings */
+  --padding-31xl: 50px;
+  --padding-136xl: 155px;
+  --padding-11xs: 2px;
+  --padding-3xs: 10px;
+  --padding-81xl: 100px;
+  --padding-8xs: 5px;
+  --padding-181xl: 200px;
+  --padding-xl: 20px;
+  --padding-6xl: 25px;
+  --padding-26xl: 45px;
+  --padding-11xl: 30px;
+  --padding-186xl: 205px;
+  --padding-mini: 15px;
+  --padding-106xl: 125px;
+  --padding-131xl: 150px;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-8xs: 5px;
+  --br-31xl: 50px;
+}
